@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     {
         binding.textView2.setText("Enjoy ur virusez");
         binding.button.setText("loser");
+        binding.button.setTextSize(40);
         // выводим сообщение
         Toast.makeText(this, "downloading Trojan", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "downloading WinLocker", Toast.LENGTH_SHORT).show();
